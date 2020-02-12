@@ -13,59 +13,14 @@
         tools:ignore="GoogleAppIndexingWarning">
         <activity
             android:name=".Main4Activity"
-            android:launchMode="singleTop">
+            >
 
-            <intent-filter
-                android:autoVerify="true"
-                tools:targetApi="m">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="http"
-                    android:host="anthony.testmachine.org"
-                    android:pathPrefix="/room_4" />
-            </intent-filter>
         </activity>
-        <activity
-            android:name=".Main3Activity"
-            android:launchMode="singleTop">
-            <intent-filter
-                android:autoVerify="true"
-                tools:targetApi="m">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="http"
-                    android:host="anthony.testmachine.org"
-                    android:pathPattern="/room_3" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".Main2Activity"
-            android:launchMode="singleTop">
-            <intent-filter
-                android:autoVerify="true"
-                tools:targetApi="m">
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.BROWSABLE" />
-
-                <data
-                    android:scheme="http"
-                    android:host="anthony.testmachine.org"
-                    android:pathPattern="/room_2" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
         <activity
             android:name=".MainActivity"
-            android:launchMode="singleTop">
+            >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -83,7 +38,7 @@
                 <data
                     android:scheme="http"
                     android:host="anthony.testmachine.org"
-                    android:pathPattern="/room_1" />
+                    android:pathPattern="/room" />
             </intent-filter>
 
         </activity>

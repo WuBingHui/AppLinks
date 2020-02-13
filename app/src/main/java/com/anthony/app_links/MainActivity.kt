@@ -21,6 +21,9 @@ class MainActivity : AppCompatActivity() {
         button3.setOnClickListener { show("3") }
         button4.setOnClickListener { show("4") }
 
+
+
+
     }
 
     override fun onNewIntent(intent: Intent) {
